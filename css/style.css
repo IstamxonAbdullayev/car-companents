@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 960px;
+  margin: 0px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cars-list {
+  list-style: none;
+  color: #fff;
+}
+
+.cars-item {
+  padding: 48px;
+  width: 310px;
+}
+
+.cars-icon {
+  margin-bottom: 35px;
+}
+
+.cars-title {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 48px;
+  margin-bottom: 25px;
+}
+
+.cars-text {
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 83px;
+}
+
+.cars-btn {
+  text-decoration: none;
+  padding: 11px 31px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  background-color: #fff;
+  display: inline-block;
+  transition:background-color 0.4s ease,
+            color 0.4s ease;
+  
+}
+
+a.cars-btn:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.car-sedans {
+  background-color: #E28625;
+  border-radius: 8px 0 0 8px;
+}
+.car-sedans .cars-btn {
+  color: #E28625;
+}
+.car-suvs {
+  background-color: #006971;
+}
+.car-suvs .cars-btn {
+  color: #006971;
+}
+.car-luxury {
+  background-color: #004140;
+  border-radius:  0 8px 8px 0;
+}
+.car-luxury .cars-btn {
+  color: #004140;
+}
